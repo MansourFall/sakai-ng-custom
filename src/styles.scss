@@ -20,3 +20,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.layout-topbar .layout-topbar-button:focus, .layout-topbar .layout-topbar-logo:focus {
+    box-shadow: none !important;
+}
